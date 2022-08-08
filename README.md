@@ -1,4 +1,4 @@
-A simple file sharing command line app that give you tha ability to share files between your local network devices 
+A simple file sharing command line app that give you the ability to share files between your local network devices 
 
 # Install
 `dart pub global activate fshare`
