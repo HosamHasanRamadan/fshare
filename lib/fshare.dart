@@ -16,6 +16,7 @@ late final File targetFile;
 
 Future<void> run({
   required String targetPath,
+  required OnStarted onStarted,
 }) async {
   final file = File(targetPath);
   final isValid = await file.exists();
@@ -40,11 +41,10 @@ Future<void> run({
     defaultBindAddress: privateIp,
     defaultBindPort: port,
     defaultEnableHotReload: false,
+    onStarted: onStarted,
   );
 
-  final qrText = generateQrCode(
-    link,
-  );
+  final qrText = generateQrCode(link);
 
   print(qrText);
 }
