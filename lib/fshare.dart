@@ -27,8 +27,8 @@ Future<void> run({
   targetFile = file;
   final randomInt = Random().nextInt;
   final privateIp = (await intranetIpv4()).address;
-  final port = randomInt(60000);
-  final randomNumber = randomInt(60000);
+  final port = randomInt(9999);
+  final randomNumber = randomInt(9999);
   urlPath = '$randomNumber';
   final link = 'http://$privateIp:$port/$urlPath';
 
