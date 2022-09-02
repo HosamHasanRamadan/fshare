@@ -8,8 +8,12 @@ void main(List<String> arguments) async {
     return;
   }
 
-  fshare.run(targetPath: path);
-  print('Server is running....');
+  fshare.run(
+    targetPath: path,
+    onStarted: (address, port) {
+      print('Server is running....');
+    },
+  );
 }
 
 extension IterableX<T> on Iterable<T> {

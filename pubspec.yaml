@@ -1,15 +1,15 @@
 name: fshare
 description: A simple file sharing command line app
-version: 0.0.2
+version: 0.0.3
 repository: https://github.com/HosamHasanRamadan/fshare
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
   intranet_ip: ^1.0.2
   qr: ^3.0.1
-  shelf_plus: ^1.4.0
+  shelf_plus: ^1.4.1
 
 dev_dependencies:
   lints: ^2.0.0
@@ -17,3 +17,4 @@ dev_dependencies:
 
 executables:
   fshare:
+# QrInputTooLongException
