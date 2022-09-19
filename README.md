@@ -1,3 +1,4 @@
+
 A simple file sharing command line app that give you the ability to share files between your local network devices 
 
 # Install
@@ -21,22 +22,5 @@ Simply run it from your cmd like this
 then the app will run a **localserver** with random `port` and `path` ex: `http://192.168.1.15:4987/58288`, then you can use that link to transfer your file.
 
 Or simply scan the printed Qr Code using you favorite qr scanner (most of new mobile phones has built in qr scanner in the default camera app) and transfer you file.
-```
-█████████████████████████████████
-█████████████████████████████████
-████ ▄▄▄▄▄ █▄ ▀█▄ ▀█▄█ ▄▄▄▄▄ ████
-████ █   █ ██▄ ▄█  ▀▀█ █   █ ████
-████ █▄▄▄█ ██▀█▀▄█▀███ █▄▄▄█ ████
-████▄▄▄▄▄▄▄█ ▀▄█ ▀▄█▄█▄▄▄▄▄▄▄████
-████ ▄█  ▀▄█▀▄▀▀▀▀█ ▀▀▄█▀▀▀▀▄████
-████▀█▀▀▄█▄▀█▄█ ▀▄▄ █ ▄▄  ▀▀ ████
-████ █▀   ▄ ▄   ▀▀▄▀▄▄▄▀▀██▀▄████
-████ ▄ █▀▀▄▀ ▀▄▀█▄▄▄ ▄██▀▄ ▄ ████
-████▄█▄▄█▄▄▄ ▀██ ▄ ▀ ▄▄▄ █▄ █████
-████ ▄▄▄▄▄ ██▄▀ ▄ ██ █▄█ ▄██▄████
-████ █   █ █ █▄▀▀██▄▄▄  ▄ █ ▀████
-████ █▄▄▄█ █▀█▀▄██▄▀█▀▀▀ █   ████
-████▄▄▄▄▄▄▄█▄██▄██▄▄▄█▄██▄██▄████
-█████████████████████████████████
-█████████████████████████████████
-```
+  
+![final](https://user-images.githubusercontent.com/28815699/191107281-20ec4e86-03a5-4223-aed0-1267251c0008.gif)
