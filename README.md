@@ -1,3 +1,12 @@
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" width="200" height="200" srcset="https://user-images.githubusercontent.com/28815699/193655408-3c6a5cc9-e17a-4258-b55a-e93317f4c677.png">
+  <source media="(prefers-color-scheme: light)" width="200" height="200" srcset="https://user-images.githubusercontent.com/28815699/193655454-8ae23124-2f74-463f-96e7-4478307729d2.png">
+  <img alt="Fshare Logo" width="200" height="200" src="https://user-images.githubusercontent.com/28815699/193656181-cb6924f6-7370-4b01-ac15-662d7bc914f3.jpg">
+</picture>
+</p>
+
+
 
 A simple file sharing command line app that give you the ability to share files between your local network devices 
 
