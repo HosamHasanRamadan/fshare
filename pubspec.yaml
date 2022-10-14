@@ -1,6 +1,6 @@
 name: fshare
 description: A simple file sharing command line app
-version: 0.0.3+2
+version: 0.0.4
 repository: https://github.com/HosamHasanRamadan/fshare
 
 environment:
