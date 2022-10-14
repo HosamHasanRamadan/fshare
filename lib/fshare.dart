@@ -21,7 +21,7 @@ Future<void> run({
   final file = File(targetPath);
   final isValid = await file.exists();
   if (isValid == false) {
-    print('No file in this path');
+    stdout.writeln('No file in this path');
     return;
   }
 
@@ -33,9 +33,6 @@ Future<void> run({
   urlPath = '$randomNumber';
   final link = 'http://$privateIp:$port/$urlPath';
 
-  print('Scan the following Qr Code to download your file.');
-  print(link);
-
   await shelfRun(
     init,
     defaultBindAddress: privateIp,
@@ -44,9 +41,10 @@ Future<void> run({
     onStarted: onStarted,
   );
 
+  stdout.writeln('Scan the following Qr Code to download your file.');
+  stdout.writeln(link);
   final qrText = generateQrCode(link);
-
-  print(qrText);
+  stdout.writeln(qrText);
 }
 
 String generateQrCode(
