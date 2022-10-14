@@ -1,3 +1,7 @@
+## 0.0.3+1
+
+- add app icon to README
+
 ## 0.0.3
 
 - update dart sdk  min constraints to 2.17.0
