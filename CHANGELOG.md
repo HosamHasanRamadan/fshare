@@ -1,3 +1,7 @@
+## 0.0.4
+
+- Fixes `SocketException` due to reserved port. [issue](https://github.com/HosamHasanRamadan/fshare/issues/1)
+
 ## 0.0.3+2
 
 - add app icon to README
