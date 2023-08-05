@@ -9,11 +9,11 @@ environment:
 dependencies:
   intranet_ip: ^1.0.2
   qr: ^3.0.1
-  shelf_plus: ^1.4.1
+  shelf_plus: ^1.7.0
 
 dev_dependencies:
-  lints: ^2.0.0
-  test: ^1.21.4
+  lints: ^2.1.1
+  test: ^1.24.5
 
 executables:
   fshare:
