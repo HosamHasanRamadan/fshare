@@ -1,3 +1,7 @@
+## 0.0.5
+
+- Upgrade packages
+
 ## 0.0.4
 
 - Fixes `SocketException` due to reserved port. [issue](https://github.com/HosamHasanRamadan/fshare/issues/1)
